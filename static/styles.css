@@ -39,11 +39,44 @@
     padding: 0px 10px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    transition: 0.5s ease;
     font-size: 0.9em;
     display: inline;
 } 
 
-.topnav-right {
+.topnav2 a:hover {
+    color: #ff8b00;
+}
+
+.search-container {
+    display: inline-flex;
+    float: left;
+}
+
+.search-container input {
+    display: inline-flex;
+    float: left;
+    border-color: black;
+    border-left: 1px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    font-family: 'Open Sans', sans-serif;
+    border-right: 0px;
+    font-size: 0.75em;
+    padding: 4px;
+    width: 30em;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-right: 24px;
+    font-size: 0.68em;
+    cursor: pointer;
+    border: 0px;
+}
+
+.subscribe {
     float: right;
 }
 
