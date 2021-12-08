@@ -8,7 +8,8 @@ nltk.download('punkt')
 from nltk import tokenize
 from operator import itemgetter
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize 
+from nltk.tokenize import word_tokenize
+from datetime import datetime 
 from cs50 import SQL
 from flask import Flask, flash, redirect, render_template, request, session
 from flask_session import Session
@@ -287,22 +288,21 @@ def publish():
             error = 'Missing references'
             return render_template('publish.html', error=error)
 
-        from datetime import datetime
+        # Grab current date
         now = datetime.now()
 
+        # Generate random color
         color = "#%06x" % random.randint(0, 0xFFFFFF)
 
+        # Get a string of entire article
         doc = request.form.get("article_abstract") + "  " + request.form.get("article_materials_methods") + " " + request.form.get("article_results") + " " + request.form.get("article_discussion") + " " + request.form.get("article_conclusion")
 
+        # Keyword extraction
         stop_words = set(stopwords.words('english'))
-
         total_words = doc.split()
         total_word_length = len(total_words)
-        print(total_word_length)
-
         total_sentences = tokenize.sent_tokenize(doc)
         total_sent_len = len(total_sentences)
-        print(total_sent_len)
 
         tf_score = {}
         for each_word in total_words:
@@ -315,7 +315,6 @@ def publish():
 
         # Dividing by total_word_length for each dictionary element
         tf_score.update((x, y/int(total_word_length)) for x, y in tf_score.items())
-        print(tf_score)
 
         def check_sent(word, sentences): 
             final = [all([w in x for w in word]) for x in sentences] 
@@ -331,13 +330,8 @@ def publish():
                 else:
                     idf_score[each_word] = 1
 
-        # Performing a log and divide
         idf_score.update((x, math.log(int(total_sent_len)/y)) for x, y in idf_score.items())
-
-        print(idf_score)
-
         tf_idf_score = {key: tf_score[key] * idf_score.get(key, 0) for key in tf_score.keys()}
-        print(tf_idf_score)
 
         def get_top_n(dict_elem, n):
             result = dict(sorted(dict_elem.items(), key = itemgetter(1), reverse = True)[:n]) 
