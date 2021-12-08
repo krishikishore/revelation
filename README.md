@@ -66,5 +66,25 @@ Open the terminal within Visual Studio Code and enter this command:
 ```
 pip3 install rake-nltk
 ```
+### Installation
 
-## Getting Started
+1. Clone the repo in your intended folder locally by entering the following command in your terminal within Visual Studio Code:
+```
+git clone https://github.com/krishikishore/revelation.git
+```
+2. Navigate to the cloned repository by entering this command in your Visual Studio Code terminal:
+```
+cd revelation
+```
+3. Run the following command to start the Flask web server and follow the instructions to access the link to the website:
+```
+python3 -m flask run
+```
+
+## Usage
+
+## License
+
+## Contact
+
+## Acknowledgements
