@@ -4,6 +4,8 @@
 
 Revelation Journal is a scientific research journal designed to be utilized by high school and undergraduate students. We understand the difficulty for young researchers to getting their phenomenal research out into the world competing with the best scientists in the world who have an advantage across both experience and resources. We believe it is an important aspect of any young researcher's career to be able to publish one's work and allow researchers from all over the globe to access, learn from, and perhaps even cite the work in the context of their own research. Some of the main features of Revelation include the ability to publish one's own work, get feedback through a peer-review editing process, explore other young researchers' work, and get involved in the youth scientific community.
 
+Video - [https://youtu.be/rnn-xHovv84](https://youtu.be/rnn-xHovv84)
+
 ### Built With
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
