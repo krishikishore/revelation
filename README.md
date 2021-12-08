@@ -20,6 +20,7 @@ Revelation Journal is a scientific research journal designed to be utilized by h
 - Visual Studio Code
 [Download Visual Studio Code](https://code.visualstudio.com/download)
 - homebrew
+
 Open the terminal within Visual Studio Code and enter this command:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
