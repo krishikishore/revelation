@@ -27,18 +27,26 @@ Open the terminal within Visual Studio Code and enter this command:
 ```
 You will see messages in the terminal for further installation steps which will likely include entering 2 commands.
 - python
+
+Open the terminal within Visual Studio Code and enter this command:
 ```
 brew install python
 ```
 - cs50
+
+Open the terminal within Visual Studio Code and enter this command:
 ```
 pip3 install cs50
 ```
 - lib50
+
+Open the terminal within Visual Studio Code and enter this command:
 ```
 pip3 install lib50
 ```
 - flask
+
+Open the terminal within Visual Studio Code and enter this command:
 ```
 pip3 install flask
 ```
@@ -47,10 +55,14 @@ Sometimes this command may fail due to permission errors in which case do
 pip3 install flask --user
 ```
 - flask_session
+
+Open the terminal within Visual Studio Code and enter this command:
 ```
 pip3 install flask_session
 ```
 - rake-nltk
+
+Open the terminal within Visual Studio Code and enter this command:
 ```
 pip3 install rake-nltk
 ```
