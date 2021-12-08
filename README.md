@@ -15,4 +15,13 @@ Revelation Journal is a scientific research journal designed to be utilized by h
 
 ## Getting Started
 
+### Prerequisites
+
+- python
+- cs50
+- lib50
+- flask
+- flask_session
+- rake-nltk
+
 ## Getting Started
