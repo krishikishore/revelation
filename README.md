@@ -85,6 +85,14 @@ python3 -m flask run
 
 ## License
 
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 ## Contact
+
+Krishi Kishore - kkishore@college.harvard.edu
+
+Jake Pappo - jakepappo@college.harvard.edu
+
+Project Link - [https://github.com/krishikishore/revelation](https://github.com/krishikishore/revelation)
 
 ## Acknowledgements
