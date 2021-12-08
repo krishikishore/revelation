@@ -114,9 +114,6 @@ an editor, the user will be brought to their one and only page, titled "Articles
 were randomly assigned. Here they can select any of these articles, edit them accordingly, and choose to either publish the final product, thus updating
 its status and allowing it to be displayed on the website, or they can reject the submission.
 
-Also, at the bottom of every page is the copyright bar, as this amazing website will likely be targeted by nefarious online hackers looking to steal the 
-priceless contents within.
-
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
