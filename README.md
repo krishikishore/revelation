@@ -133,7 +133,6 @@ Project Link - [https://github.com/krishikishore/revelation](https://github.com/
 - [https://stackoverflow.com/questions/41940663/how-can-i-change-the-host-and-port-that-the-flask-command-uses](https://stackoverflow.com/questions/41940663/how-can-i-change-the-host-and-port-that-the-flask-command-uses)
 - [https://www.analyticsvidhya.com/blog/2020/11/words-that-matter-a-simple-guide-to-keyword-extraction-in-python/](https://www.analyticsvidhya.com/blog/2020/11/words-that-matter-a-simple-guide-to-keyword-extraction-in-python/)
 - [https://stackoverflow.com/questions/28128400/keep-footer-at-the-bottom-of-the-page-with-scrolling-if-needed](https://stackoverflow.com/questions/28128400/keep-footer-at-the-bottom-of-the-page-with-scrolling-if-needed)
-- [https://stackoverflow.com/questions/1052772/keyboard-shortcut-to-untab-move-a-block-of-code-to-the-left-in-eclipse-apt](https://stackoverflow.com/questions/1052772/keyboard-shortcut-to-untab-move-a-block-of-code-to-the-left-in-eclipse-apt)
 - [https://www.codegrepper.com/code-examples/css/flask+render+template+not+getting+css](https://www.codegrepper.com/code-examples/css/flask+render+template+not+getting+css)
 - [https://stackoverflow.com/questions/13415152/submit-post-form-from-url](https://stackoverflow.com/questions/13415152/submit-post-form-from-url)
 - [https://www.nature.com/](https://www.nature.com/)
@@ -141,4 +140,3 @@ Project Link - [https://github.com/krishikishore/revelation](https://github.com/
 - [https://www.hongkiat.com/blog/css-viewport-units-vw-vh-wmin-vmax/](https://www.hongkiat.com/blog/css-viewport-units-vw-vh-wmin-vmax/)
 - [https://stackoverflow.com/questions/16318413/dropdown-menu-z-index-problems](https://stackoverflow.com/questions/16318413/dropdown-menu-z-index-problems)
 - [https://support.mozilla.org/en-US/kb/websites-look-wrong-or-appear-differently](https://support.mozilla.org/en-US/kb/websites-look-wrong-or-appear-differently)
-- [https://www.tutorialspoint.com/How-to-Insert-Hyperlink-in-HTML-Page](https://www.tutorialspoint.com/How-to-Insert-Hyperlink-in-HTML-Page)
