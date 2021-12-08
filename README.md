@@ -1,4 +1,3 @@
 # Revelation
-sdf
+Revelation Journal is a scientific research journal designed to be utilized by high school and undergraduate students. We understand the difficult for young researchers to getting their phenomenal research out into the world competing with the best scientists in the world with an advantage across both experience and resources. We believe it is an important aspect of any young researcher's career to be able to publish one's work and allow researchers from all over the globe to access, learn from, and perhaps even cite the work in the context of their own research.
 ## The second largest heading
-###### The smallest heading
