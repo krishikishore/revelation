@@ -17,7 +17,14 @@ Revelation Journal is a scientific research journal designed to be utilized by h
 
 ### Prerequisites
 
+- homebrew
+```
+git
+```
 - python
+```
+git
+```
 - cs50
 - lib50
 - flask
