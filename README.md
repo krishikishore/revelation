@@ -15,20 +15,43 @@ Revelation Journal is a scientific research journal designed to be utilized by h
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites (in order)
 
+- Visual Studio Code
+[Download Visual Studio Code](https://code.visualstudio.com/download)
 - homebrew
+Open the terminal within Visual Studio Code and enter this command:
 ```
-git
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+You will see messages in the terminal for further installation steps which will likely include entering 2 commands.
 - python
 ```
-git
+brew install python
 ```
 - cs50
+```
+pip3 install cs50
+```
 - lib50
+```
+pip3 install lib50
+```
 - flask
+```
+pip3 install flask
+```
+Sometimes this command may fail due to permission errors in which case do
+```
+pip3 install flask --user
+```
 - flask_session
+```
+pip3 install flask_session
+```
 - rake-nltk
+```
+pip3 install rake-nltk
+```
 
 ## Getting Started
